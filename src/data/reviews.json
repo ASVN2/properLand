@@ -1,0 +1,58 @@
+{
+  "reviews": [
+    {
+      "name": "John Doe",
+      "image": "images/avatar01.png",
+      "isHappy": true,
+      "comment": "I'm so happy with my purchase! The product exceeded my expectations."
+    },
+    {
+      "name": "Jane Smith",
+      "image": "images/avatar02.png",
+      "isHappy": false,
+      "comment": "Unfortunately, the product did not work as advertised. I was very disappointed."
+    },
+    {
+      "name": "Bob Johnson",
+      "image": "images/avatar03.png",
+      "isHappy": true,
+      "comment": "I've been using this product for a few weeks now and it's been great. I would definitely recommend it to others."
+    },
+    {
+      "name": "Alice Lee",
+      "image": "images/avatar04.png",
+      "isHappy": true,
+      "comment": "This product is amazing! It has made my life so much easier."
+    },
+    {
+      "name": "Mark Williams",
+      "image": "images/avatar05.png",
+      "isHappy": false,
+      "comment": "I had high hopes for this product, but it did not live up to my expectations."
+    },
+    {
+      "name": "Samantha Davis",
+      "image": "images/avatar06.png",
+      "isHappy": true,
+      "comment": "I love this product! It's exactly what I was looking for."
+    },
+    {
+      "name": "David Brown",
+      "image": "images/avatar07.png",
+      "isHappy": false,
+      "comment": "I had a terrible experience with this product. I would not recommend it."
+    },
+    {
+      "name": "Emily Garcia",
+      "image": "images/avatar08.png",
+      "isHappy": true,
+      "comment": "I'm so glad I decided to try this product. It's been a game changer."
+    },
+    {
+      "name": "Michael Rodriguez",
+      "image": "images/avatar09.png",
+      "isHappy": true,
+      "comment": "This product is fantastic! I couldn't be happier with my purchase."
+    }
+  ]
+}

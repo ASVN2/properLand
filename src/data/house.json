@@ -1,0 +1,94 @@
+{
+  "houses": [
+    {
+      "picture": "/images/photo01.jpg",
+      "price": "$500,000",
+      "title": "Beautiful 4-Bedroom House",
+      "bathrooms": 2,
+      "beds": 4,
+      "parks": 2,
+      "size": "2000 sqft",
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA"
+      },
+      "id": 1
+    },
+    {
+      "picture": "/images/photo02.png",
+      "price": "$750,000",
+      "title": "Spacious 5-Bedroom House",
+      "bathrooms": 3,
+      "beds": 5,
+      "parks": 3,
+      "size": "3000 sqft",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      },
+      "id": 2
+    },
+    {
+      "picture": "/images/photo03.png",
+      "price": "$1,200,000",
+      "title": "Luxurious 6-Bedroom House",
+      "bathrooms": 4,
+      "beds": 6,
+      "parks": 4,
+      "size": "4000 sqft",
+      "location": {
+        "city": "Miami",
+        "state": "FL",
+        "country": "USA"
+      },
+      "id": 3
+    },
+    {
+      "picture": "/images/photo04.png",
+      "price": "$900,000",
+      "title": "Modern 3-Bedroom House",
+      "bathrooms": 2,
+      "beds": 3,
+      "parks": 2,
+      "size": "2500 sqft",
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA"
+      },
+      "id": 4
+    },
+    {
+      "picture": "/images/photo05.png",
+      "price": "$600,000",
+      "title": "Cozy 2-Bedroom House",
+      "bathrooms": 1,
+      "beds": 2,
+      "parks": 1,
+      "size": "1500 sqft",
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA"
+      },
+      "id": 5
+    },
+    {
+      "picture": "/images/photo06.png",
+      "price": "$1,500,000",
+      "title": "Stunning 8-Bedroom House",
+      "bathrooms": 5,
+      "beds": 8,
+      "parks": 5,
+      "size": "5000 sqft",
+      "location": {
+        "city": "Houston",
+        "state": "TX",
+        "country": "USA"
+      },
+      "id": 6
+    }
+  ]
+}

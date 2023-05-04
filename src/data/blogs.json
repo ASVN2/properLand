@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "image": "images/blog01.png",
+      "date": "November 05, 2021 ",
+      "state": "Architecture",
+      "title": "Here’s how to decorate your new home from scratch"
+    },
+    {
+      "image": "images/blog02.png",
+      "date": "November 05, 2021 ",
+      "state": "Architecture",
+      "title": "Here’s how to decorate your new home from scratch"
+    }
+  ]
+}
