@@ -48,7 +48,7 @@ const Navbar = ({ image, title, disc, btnstate, btntext, headtext, headState, ba
             <Button text={'Contact'} icon={'x'} />
           </Link>
           <div onClick={() => setIsOpend(!IsOpend)} className="menu cursor-pointer block xl:hidden md:hidden lg:hidden">
-            <p className={`w-[30px] mb-4  ${IsOpend && 'rotate-[45deg] mb-0'} duration-300 h-[2px] bg-border`}></p>
+            <p className={`w-[30px] mb-4  ${IsOpend && 'rotate-[45deg] -mb-0'} duration-300 h-[2px] bg-border`}></p>
             <p className={`w-[30px]  ${IsOpend && 'rotate-[-45deg]'} duration-300 h-[2px] bg-border`}></p>
           </div>
         </Link>
