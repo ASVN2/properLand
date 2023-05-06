@@ -4,13 +4,50 @@
       "image": "images/blog01.png",
       "date": "November 05, 2021 ",
       "state": "Architecture",
-      "title": "Here’s how to decorate your new home from scratch"
+      "title": "Here’s how to decorate your new home from scratch",
+      "id": 1
     },
     {
       "image": "images/blog02.png",
       "date": "November 05, 2021 ",
       "state": "Architecture",
-      "title": "Here’s how to decorate your new home from scratch"
+      "title": "Here’s how to decorate your new home from scratch",
+      "id": 2
+    },
+    {
+      "image": "images/blog03.png",
+      "date": "November 05, 2021 ",
+      "state": "Architecture",
+      "title": "Here’s how to decorate your new home from scratch",
+      "id": 3
+    },
+    {
+      "image": "images/blog04.png",
+      "date": "November 05, 2021 ",
+      "state": "Architecture",
+      "title": "Here’s how to decorate your new home from scratch",
+      "id": 4
+    },
+    {
+      "image": "images/blog05.png",
+      "date": "November 05, 2021 ",
+      "state": "Architecture",
+      "title": "Here’s how to decorate your new home from scratch",
+      "id": 5
+    },
+    {
+      "image": "images/blog06.png",
+      "date": "November 05, 2021 ",
+      "state": "Architecture",
+      "title": "Here’s how to decorate your new home from scratch",
+      "id": 6
+    },
+    {
+      "image": "images/blog07.png",
+      "date": "November 05, 2021 ",
+      "state": "Architecture",
+      "title": "Here’s how to decorate your new home from scratch",
+      "id": 7
     }
   ]
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Button from './Button';
 import { HiHome } from 'react-icons/hi';
 import { BsArrowRightShort } from 'react-icons/bs';
@@ -22,34 +22,36 @@ const Navbar = ({ image, title, disc, btnstate, btntext, headtext, headState, ba
   return (
     <div style={style} className="hero h-screen overflow-hidden relative bg-gradient-to-r  from-[#FFF0E9] to-[#EAB196] pt-12">
       <div className=" mx1200 ">
-        <div className="holder relative z-30 bg-white h-full flex p-8 justify-between place-items-center">
+        <Link to={'/'} className="holder relative z-30 bg-white h-full flex p-8 justify-between place-items-center">
           <img src="/images/Logo.svg" className="w-[200px]" alt="Logo.svg" />
-          <div
+          <Link
             className={`${
               IsOpend
                 ? 'links p-10   text-2xl gap-4 duration-300 opacity-1 font-kuf z-30 flex flex-col absolute bg-white top-36 left-0 w-full'
                 : 'links  font-kuf  gap-4 duration-300 opacity-1 place-items-center hidden xl:flex lg:flex md:flex'
             }`}>
-            <Link to={'/'}>Home</Link>
-            <Link to={'/about'} className="text-gray-400">
+            <NavLink to="/" className={({ isActive }) => (isActive ? 'text-main border-b-2 border-dashed border-main font-kuf' : 'text-gray-400')}>
+              Home
+            </NavLink>
+            <NavLink className={({ isActive }) => (isActive ? 'text-main border-b-2 border-dashed border-main font-kuf' : 'text-gray-400')} to={'/about'}>
               About
-            </Link>
-            <Link to={'/properties'} className="text-gray-400">
+            </NavLink>
+            <NavLink className={({ isActive }) => (isActive ? 'text-main border-b-2 border-dashed border-main font-kuf' : 'text-gray-400')} to={'/properties'}>
               Properties
-            </Link>
-            <Link to={'/pages'} className="text-gray-400">
-              Pages
-            </Link>
-            <Link to={'/blogs'} className="text-gray-400">
+            </NavLink>
+            <NavLink className={({ isActive }) => (isActive ? 'text-main border-b-2 border-dashed border-main font-kuf' : 'text-gray-400')} to={'/agents'}>
+              Agents
+            </NavLink>
+            <NavLink className={({ isActive }) => (isActive ? 'text-main border-b-2 border-dashed border-main font-kuf' : 'text-gray-400')} to={'/blogs'}>
               blogs
-            </Link>
+            </NavLink>
             <Button text={'Contact'} icon={'x'} />
-          </div>
+          </Link>
           <div onClick={() => setIsOpend(!IsOpend)} className="menu cursor-pointer block xl:hidden md:hidden lg:hidden">
             <p className={`w-[30px] mb-4  ${IsOpend && 'rotate-[45deg] mb-0'} duration-300 h-[2px] bg-border`}></p>
             <p className={`w-[30px]  ${IsOpend && 'rotate-[-45deg]'} duration-300 h-[2px] bg-border`}></p>
           </div>
-        </div>
+        </Link>
         <div className="info mt-12 h-[70vh] flex justify-start xl:justify-center lg:justify-center md:justify-center flex-col">
           {headState && (
             <p className=" uppercase my-4 flex gap-2 place-items-center font-kuf text-border bg-gradient-to-r w-fit p-1 from-[#FFF0E9] to-[#EAB196]">

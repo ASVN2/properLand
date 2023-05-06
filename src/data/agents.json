@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "name": "Peter Parker",
+      "image": "/images/xp-1.png",
+      "state": "Land Seller",
+      "id": 1,
+      "yellow": false
+    },
+    {
+      "name": "Peter Parker",
+      "image": "/images/xp-2.png",
+      "state": "Land Seller",
+      "id": 2,
+      "yellow": false
+    },
+    {
+      "name": "Peter Parker",
+      "image": "/images/xp-3.png",
+      "state": "Land Seller",
+      "id": 3,
+      "yellow": true
+    },
+    {
+      "name": "Peter Parker",
+      "image": "/images/xp-4.png",
+      "state": "Land Seller",
+      "id": 4,
+      "yellow": false
+    },
+    {
+      "name": "Peter Parker",
+      "image": "/images/xp-5.png",
+      "state": "Land Seller",
+      "id": 5,
+      "yellow": false
+    },
+    {
+      "name": "Peter Parker",
+      "image": "/images/xp-6.png",
+      "state": "Land Seller",
+      "id": 6,
+      "yellow": false
+    },
+    {
+      "name": "Peter Parker",
+      "image": "/images/xp-7.png",
+      "state": "Land Seller",
+      "id": 7,
+      "yellow": false
+    }
+  ]
+}

@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { GrMapLocation } from 'react-icons/gr';
 import { IoMdMail } from 'react-icons/io';
 import { RiPhoneFill } from 'react-icons/ri';
 import { BiRuler, BiBed, BiCar, BiBath } from 'react-icons/bi';
 
 const Info = ({ data }) => {
-  console.log(data, 'data');
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  });
 
   return (
     <div className="mx1200 py-32">
