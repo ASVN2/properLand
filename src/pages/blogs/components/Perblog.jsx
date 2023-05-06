@@ -3,7 +3,7 @@ import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 
 const Perblog = () => {
   return (
-    <div className="mx1200 my-20 flex gap-4">
+    <div className="mx1200 my-20 flex gap-4 flex-col md:flex-row">
       <div className="image flex-1 flex-col md:flex-row">
         <img src="/images/perblog.png" alt="perblog.png" />
       </div>

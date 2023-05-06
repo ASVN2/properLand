@@ -40,11 +40,11 @@ const MoreInfo = ({ image, blogs }) => {
       </div>
 
       <div className="me bg-yellow-400 py-10 ">
-        <div className="holder mx1200 flex gap-10 place-items-center  ">
+        <div className="holder flex-col md:flex-row mx1200 flex gap-10 place-items-center  ">
           <div className="image">
             <img src="/images/avatar03.png" className=" rounded-md" alt="avatar03.png" />
           </div>
-          <div className="info w-full">
+          <div className="info w-full p-4">
             <div className="hold flex justify-between w-full">
               <div className="name text-main font-kuf text-xl">Deborah Roderick</div>
               <div className="media flex gap-2 text-xl">

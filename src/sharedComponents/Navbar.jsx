@@ -22,7 +22,7 @@ const Navbar = ({ image, title, disc, btnstate, btntext, headtext, headState, ba
   return (
     <div style={style} className="hero h-screen overflow-hidden relative bg-gradient-to-r  from-[#FFF0E9] to-[#EAB196] pt-12">
       <div className=" mx1200 ">
-        <Link to={'/'} className="holder relative z-30 bg-white h-full flex p-8 justify-between place-items-center">
+        <div to={'/'} className="holder relative z-30 bg-white h-full flex p-8 justify-between place-items-center">
           <img src="/images/Logo.svg" className="w-[200px]" alt="Logo.svg" />
           <Link
             className={`${
@@ -47,11 +47,11 @@ const Navbar = ({ image, title, disc, btnstate, btntext, headtext, headState, ba
             </NavLink>
             <Button text={'Contact'} icon={'x'} />
           </Link>
-          <div onClick={() => setIsOpend(!IsOpend)} className="menu cursor-pointer block xl:hidden md:hidden lg:hidden">
+          <div onClick={() => setIsOpend(!IsOpend)} className="menu bg-red-400 p-3 cursor-pointer block xl:hidden md:hidden lg:hidden">
             <p className={`w-[30px] mb-4  ${IsOpend && 'rotate-[45deg] -mb-0'} duration-300 h-[2px] bg-border`}></p>
             <p className={`w-[30px]  ${IsOpend && 'rotate-[-45deg]'} duration-300 h-[2px] bg-border`}></p>
           </div>
-        </Link>
+        </div>
         <div className="info mt-12 h-[70vh] flex justify-start xl:justify-center lg:justify-center md:justify-center flex-col">
           {headState && (
             <p className=" uppercase my-4 flex gap-2 place-items-center font-kuf text-border bg-gradient-to-r w-fit p-1 from-[#FFF0E9] to-[#EAB196]">
